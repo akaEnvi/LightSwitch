@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+
+  transition: 2s ease-in;
+}
+
+.body-dark {
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+
+  transition: 2s ease-in;
+}
+
+.button {
+  font-size: 2rem;
+
+  text-shadow: 0 0 0.2em rgb(136, 136, 136), 0 0 0.2em rgb(136, 136, 136);
+
+  height: 5rem;
+  width: 20rem;
+  border: 10px solid black;
+  border-radius: 5px;
+  margin: auto;
+
+  transition: 1s ease-in;
+}
+
+.button-dark {
+  font-size: 2rem;
+
+  text-shadow: 0 0 0.2em rgb(241, 241, 19), 0 0 0.2em rgb(241, 241, 19);
+
+  height: 5rem;
+  width: 20rem;
+  border: 10px solid rgb(213, 213, 132);
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: rgb(212, 212, 24) 20px 29px 38px, rgb(212, 212, 24) 10px 5px 32px;
+
+  transition: 1s ease-in;
+}
+
+.button-txt {
+  font-family: "Anton", sans-serif;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  margin: -30px;
+  gap: 0.5rem;
+}
